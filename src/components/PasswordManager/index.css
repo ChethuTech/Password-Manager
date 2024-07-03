@@ -1,0 +1,278 @@
+.bg {
+  background-color: #c3caea;
+  min-height: 100vh;
+  padding: 4vh 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bg-container {
+  max-width: 1200px;
+}
+.app-logo {
+  width: 150px;
+  margin-bottom: 40px;
+  align-self: flex-start;
+}
+
+.add-new-password-container {
+  width: 100%;
+
+  padding: 4%;
+  background-color: #5763a5;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form {
+  width: 50%;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: #454f84;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.form-heading {
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.form-label-img-container {
+  height: 45px;
+  width: 50px;
+  background-color: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-right: solid 1px #94a3b8;
+  border-radius: 5px 0px 0px 5px;
+}
+.form-label-img {
+  width: 30px;
+  padding: 10%;
+}
+.form-label-input {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  height: 45px;
+  width: 100%;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  padding: 10px 20px;
+  outline: none;
+}
+.add-btn {
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  padding: 5px 25px;
+  border-radius: 5px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.password-manager-img-container {
+  width: 50%;
+  padding: 2%;
+}
+.password-manager-img-lg {
+  width: 100%;
+}
+.password-manager-img-sm {
+  width: 100%;
+  display: none;
+}
+
+.your-password-container {
+  margin-top: 20px;
+  width: 100%;
+
+  padding: 4%;
+  background-color: #5763a5;
+  min-height: 40vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+hr {
+  width: 100%;
+}
+
+.your-password-header {
+  display: flex;
+  align-items: center;
+}
+.your-password-heading-count-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.your-password-heading {
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.your-password-count {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #454f84;
+  padding: 2px 14px;
+  border: #ffffff solid 1px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.search-label {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #f8fafc;
+}
+.search-label-img-container {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  padding: 5%;
+  border: noen;
+}
+.search-label-img {
+  width: 75%;
+}
+.search-input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-left: solid 2px #94a3b8;
+  padding: 5px 10px 5px 15px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+}
+
+.show-passwords-label {
+  align-self: flex-end;
+  margin: 10px 0px 20px;
+
+  display: flex;
+  align-items: center;
+
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.show-passwords-label-checkbox {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.no-passwords-container {
+  align-self: center;
+}
+.no-passwords-img {
+  width: 100%;
+  max-width: 400px;
+}
+.no-passwords {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+}
+
+.list-of-passwords {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .bg {
+    align-items: unset;
+  }
+  .add-new-password-container {
+    flex-direction: column-reverse;
+  }
+  .form {
+    width: 100%;
+    padding: 7%;
+  }
+  .form-heading {
+    font-size: 26px;
+  }
+
+  .password-manager-img-container {
+    width: 100%;
+    max-width: 300px;
+  }
+  .password-manager-img-lg {
+    display: none;
+  }
+  .password-manager-img-sm {
+    display: flex;
+  }
+
+  .your-password-heading {
+    font-size: 14px;
+  }
+  .your-password-count {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  .search-label {
+    height: 25px;
+    margin-left: 20px;
+  }
+  .search-label-img-container {
+    height: 25px;
+    width: 30px;
+  }
+  .search-label-img {
+    width: 20px;
+  }
+  .search-input {
+    height: 25px;
+    font-size: 14px;
+    max-width: 140px;
+  }
+
+  .show-passwords-label-checkbox {
+    height: 15px;
+    width: 15px;
+  }
+  .show-passwords-label {
+    font-size: 14px;
+  }
+  .list-of-passwords {
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    padding-left: 10px;
+  }
+}

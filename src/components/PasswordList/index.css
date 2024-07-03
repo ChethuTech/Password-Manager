@@ -1,0 +1,106 @@
+.a {
+  background-color: #0b69ff;
+}
+.b {
+  background-color: #94a3b8;
+}
+.c {
+  background-color: #b6c3ca;
+}
+.d {
+  background-color: #7683cb;
+}
+.e {
+  background-color: #f59e0b;
+}
+.f {
+  background-color: #10b981;
+}
+.g {
+  background-color: #f97316;
+}
+.h {
+  background-color: #14b8a6;
+}
+.i {
+  background-color: #b91c1c;
+}
+.j {
+  background-color: #0ea5e9;
+}
+
+li {
+  display: flex;
+  align-items: center;
+
+  background-color: #5763a5;
+
+  width: 280px;
+  min-height: 140px;
+
+  border: solid 2px #c3caea;
+  border-radius: 10px;
+  margin: 0px 15px 15px 0px;
+}
+@media screen and (max-width: 768px) {
+  li {
+    max-width: 100%;
+  }
+}
+
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 55px;
+  min-height: 55px;
+  max-width: 55px;
+  max-height: 55px;
+  border-radius: 30px;
+  margin: 10px;
+  margin-right: 20px;
+}
+.profile-pic {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.text-container {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  flex-grow: 1;
+  width: 48%;
+}
+.website-text {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.name-text {
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.stars {
+  max-width: 70%;
+}
+.password-text {
+  font-size: 16px;
+  margin: 0px;
+  margin-bottom: 5px;
+  overflow-wrap: break-word;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+.delete-btn-img {
+  width: 24px;
+}
